@@ -1,0 +1,7 @@
+[package]
+name = "gui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk = { version = "0.9.6", package = "gtk4", features = ["gnome_47", "v4_18"] }
