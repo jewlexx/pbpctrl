@@ -5,3 +5,11 @@ edition = "2024"
 
 [dependencies]
 gtk = { version = "0.9.6", package = "gtk4", features = ["gnome_47", "v4_18"] }
+tokio = { version = "1.44.2", features = ["full", "tracing"] }
+anyhow = "1.0.98"
+bluer = { version = "0.17.3", features = ["bluetoothd", "rfcomm"] }
+clap = { version = "4.5.37", features = ["derive"] }
+futures = "0.3.31"
+maestro = { path = "../libmaestro" }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
